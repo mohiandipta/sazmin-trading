@@ -102,7 +102,8 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                13/1/Ka, Panthapath, Tejgaon, 
+                <br /> Dhaka-1215, Bangladesh
               </p>
             </div>
             <div className='contact-item'>
@@ -175,13 +176,28 @@ export const Contact = (props) => {
                     QUICK LINKS
                   </h5>
                   <div className="d-flex justify-content-start justify-content-sm-center">
-                    <div className="d-flex flex-column align-items-start">
-                      {/* <Link className="text-black" href={"/animation"}>
-                        Animation
-                      </Link> */}
-                      {/* <Link className="text-black" href={"/books"}>
-                        Books
-                      </Link> */}
+                    <div className="d-flex flex-column align-items-start" style={{listStyle:'none'}}>
+                      <li>
+                      <a className="text-black" href={"/feature"} style={{color:'white'}}>
+                        Feature
+                      </a>
+                      </li>
+                      <li>
+                      <a className="text-black" href={"/books"} style={{color:'white'}}>
+                        About Us
+                      </a>
+                      </li>
+                      <li>
+                      <a className="text-black" href={"/books"} style={{color:'white'}}>
+                        Services
+                      </a>
+                      </li>
+                      <li>
+                      <a className="text-black" href={"/books"} style={{color:'white'}}>
+                        Contact
+                      </a>
+                      </li>
+                      
                       {/* <Link className="text-black" href={"/blog"}>
                         Blog
                       </Link> */}
@@ -204,28 +220,28 @@ export const Contact = (props) => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-4">
-                  <h5 className="text-black fw-bold fs-6 mt-4 mt-sm-0">
+                  <h5 className="text-black fw-bold fs-6 mt-4 mt-sm-0" style={{textAlign:'start'}}>
                     FIND US
                   </h5>
                   <div className="d-flex flex-column">
                     <div style={{ textAlign: "left", display: "flex" }}>
-                      <i className="fa-solid fa-location-dot padding-right d-flex p-1"></i>
+                      <i className="fa fa-location-dot padding-right d-flex p-1" style={{color:'white', padding:'5px'}}></i>
                       <p
                         className="text-black"
                         style={{ marginRight: "50px", textAlign: "justify" }}
                       >
                         <a
                           className="text-black"
-                          href="https://g.page/akijhouse"
+                          href="https://g.page/akijhouse" style={{color:'white'}}
                         >
-                          Akij House, 198 Bir Uttam Mir Shawkat Sarak, Tejgaon,
-                          Dhaka-1208, Bangladesh.
+                          13/1/Ka, Panthapath, Tejgaon, 
+                          <br /> Dhaka-1215, Bangladesh
                         </a>
                       </p>
                     </div>
 
                     <div style={{ textAlign: "left", display: "flex" }}>
-                      <i className="fa-solid fa-phone padding-right d-flex p-1"></i>
+                      <i className="fa fa-phone padding-right d-flex p-1" style={{color:'white', padding:'5px'}}></i>
                       <p
                         className="text-black"
                         style={{ marginRight: "50px", textAlign: "justify" }}
@@ -235,18 +251,18 @@ export const Contact = (props) => {
                           className="ms-1"
                           href="https://api.whatsapp.com/send?phone=8801755630298"
                         >
-                          01755630298
+                          ____
                         </a>
                       </p>
                     </div>
 
                     <div style={{ textAlign: "left", display: "flex" }}>
-                      <i className="fa-solid fa-envelope padding-right d-flex p-1"></i>
+                      <i className="fa fa-envelope padding-right d-flex p-2" style={{color:'white', padding:'5px'}}></i>
                       <p
                         className="text-black"
                         style={{ marginRight: "50px", textAlign: "justify" }}
                       >
-                        <a href="mailto:info@sazmintrading.com">
+                        <a href="mailto:info@sazmintrading.com" style={{color:'white'}}>
                         info@sazmintrading.com
                         </a>
                       </p>
@@ -255,20 +271,20 @@ export const Contact = (props) => {
                     <div className="align-self-center mt-4">
                       <a href="https://www.facebook.com/Amprokashoni">
                         <i
-                          className="fa-brands fa-facebook mx-2"
-                          style={{ color: "blue", fontSize: "20px" }}
+                          className="fa fa-facebook mx-2"
+                          style={{ color: "white", fontSize: "20px", padding:'2px' }}
                         ></i>
                       </a>
                       <a href="https://www.youtube.com/channel/UCT8jI6Oh2Z5B_3zVJ0NmOzA">
                         <i
-                          className="fa-brands fa-youtube mx-2"
-                          style={{ color: "red", fontSize: "20px" }}
+                          className="fa fa-youtube mx-2"
+                          style={{ color: "white", fontSize: "20px", padding:'2px' }}
                         ></i>
                       </a>
                       <a href="https://api.whatsapp.com/send?phone=8801755630298">
                         <i
-                          className="fa-brands fa-whatsapp mx-2"
-                          style={{ color: "green", fontSize: "20px" }}
+                          className="fa fa-whatsapp mx-2"
+                          style={{ color: "white", fontSize: "20px", padding:'2px' }}
                         ></i>
                       </a>
                     </div>

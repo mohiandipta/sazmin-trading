@@ -4,18 +4,18 @@
     "paragraph": "SAZMIN TRADING is specialized in the sales and service of industrial machineries and spare parts. We have been working with the largest and most significant industrial firms in Bangladesh with our skilled engineers in the automation field (PLC, HMI, VFD, SERVO,IOT,TROUBLESHOOTING etc.)."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Achieve our goal of being global leaders in the supply of automation parts and machineries by maintaining the highest levels of customer satisfaction among each and every of them. Our Goal is Deliver the industry's best level of customer service while keeping the greatest level of honesty, top-notch services with customer-friendly engineering, and attaining excellence of highest level.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "A Plan for Success",
+      "Creativity",
+      "Experts Only",
+      "Pricing"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
+      "Meeting Deadlines",
       "Lorem ipsum dolor",
       "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Award-Winning"
     ]
   },
   "Gallery": [
@@ -67,7 +67,7 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-wrench",
       "name": "PLC PROGRAMMING & HMI DESIGNING & UPGRADING",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
@@ -151,8 +151,42 @@
       "job": "Project Manager"
     }
   ],
+  "Product": [
+    {
+      "img": "img/team/product1.jpeg",
+      "name": "Flower Meter"
+    },
+    {
+      "img": "img/team/product2.jpeg",
+      "name": "PLC Somatic S7-300"
+    },
+    {
+      "img": "img/team/product3.jpeg",
+      "name": "Soft starter"
+    },
+    {
+      "img": "img/team/product4.jpeg",
+      "name": "Circuit breaker"
+    },
+    {
+      "img": "img/team/product5.jpeg",
+      "name": "HMI"
+    },
+    {
+      "img": "img/team/product6.jpeg",
+      "name": "Motor"
+    },
+    {
+      "img": "img/team/product7.jpeg",
+      "name": "Stabilized Power Supply 24V"
+    },
+    {
+      "img": "img/team/product8.jpeg",
+      "name": "Multimeter"
+    }
+  ],
   "Contact": {
-    "address": "198 Bir Uttam Mir Shawkat Sarak, Gulshan Link Road, Tejgaon, 1208 Dhaka, Bangladesh ",
+    "address": "13/1/Ka, Panthapath, Tejgaon, Dhaka-1215, Bangladesh ",
     "phone": "___",
     "email": "info@sazmintrading.com",
     "facebook": "fb.com",
@@ -161,7 +195,7 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-laptop",
       "title": "Latest Technology",
       "text": "Sazmin Trading will provide one stop solution for your industrial products with the best price, importing products from every corner of the world, working with most reputed brands with complete customer satisfaction"
     },
