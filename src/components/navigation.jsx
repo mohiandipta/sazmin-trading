@@ -22,7 +22,7 @@ export const Navigation = (props) => {
           <img src={Logo} alt="" style={{height:'50px', width:'50px', marginLeft:'-10px'}}/>
           </div>
           <a className='navbar-brand page-scroll' href='#page-top' style={{color:'dodgerblue', marginLeft:'20px'}}>
-          Sazmin Trading
+          Sazmin Traders
           </a>{' '}
         </div>
 
