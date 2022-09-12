@@ -1,9 +1,11 @@
+import Logo from "../assets/Logo.png"
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top' style={{margin:'20px', borderRadius:'15px'}}>
       {/* <div className="container" style={{height:'20px', backgroundColor:'black'}}></div> */}
       <div className='container'>
-        <div className='navbar-header'>
+        <div className='navbar-header' style={{display:'flex'}}>
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -16,7 +18,10 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top' style={{color:'dodgerblue'}}>
+          <div >
+          <img src={Logo} alt="" style={{height:'50px', width:'50px', marginLeft:'-10px'}}/>
+          </div>
+          <a className='navbar-brand page-scroll' href='#page-top' style={{color:'dodgerblue', marginLeft:'20px'}}>
           Sazmin Trading
           </a>{' '}
         </div>
