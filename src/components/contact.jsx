@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import Logo from "../assets/Logo.png"
+
 
 const initialState = {
   name: '',
@@ -155,45 +157,50 @@ export const Contact = (props) => {
             <div className="mx-xxl-5 mx-xl-4 mx-lg-3 mx-md-2 mx-sm-0 pt-4">
               <footer className="row">
                 <div className="col-12 col-sm-4">
-                  <div className="text-center text-sm-start">
-                    {/* <Image
-                      height="48px"
-                      width= "100w"
-                      src="/images/logo.png"
+                  <div className="text-center text-sm-start" >
+                    <img
+                      height="30px"
+                      width= "30w"
+                      src={Logo}
                       alt="logo"
                       objectFit="contain"
-                    /> */}
+                    />
                   </div>
                   <p
-                    className="text-black mt-3"
-                    style={{ textAlign: "justify" }}
+                    className="text-black mt-5"
+                    style={{ textAlign: "justify", marginTop:"10px", marginRight:"10px" }}
                   >
-                    DESCRIPTION
+                    SAZMIN TRADING is specialized in the sales and service of industrial machineries and spare parts. We have been working with the largest and most significant industrial firms in Bangladesh with our skilled engineers in the automation field (PLC, HMI, VFD, SERVO,IOT,TROUBLESHOOTING etc.).
                   </p>
                 </div>
-                <div className="col-12 col-sm-4 text-left text-sm-center">
+                <div className="col-12 col-sm-4 text-left text-sm-center" style={{paddingLeft:'100px'}}>
                   <h5 className="text-black fw-bold fs-6 mt-4 mt-sm-0">
                     QUICK LINKS
                   </h5>
                   <div className="d-flex justify-content-start justify-content-sm-center">
                     <div className="d-flex flex-column align-items-start" style={{listStyle:'none'}}>
                       <li>
-                      <a className="text-black" href={"/feature"} style={{color:'white'}}>
+                      <a className="text-black" href={"#feature"} style={{color:'white'}}>
                         Feature
                       </a>
                       </li>
                       <li>
-                      <a className="text-black" href={"/books"} style={{color:'white'}}>
+                      <a className="text-black" href={"#products"} style={{color:'white'}}>
+                        Products
+                      </a>
+                      </li>
+                      <li>
+                      <a className="text-black" href={"#about"} style={{color:'white'}}>
                         About Us
                       </a>
                       </li>
                       <li>
-                      <a className="text-black" href={"/books"} style={{color:'white'}}>
+                      <a className="text-black" href={"#services"} style={{color:'white'}}>
                         Services
                       </a>
                       </li>
                       <li>
-                      <a className="text-black" href={"/books"} style={{color:'white'}}>
+                      <a className="text-black" href={"#contact"} style={{color:'white'}}>
                         Contact
                       </a>
                       </li>

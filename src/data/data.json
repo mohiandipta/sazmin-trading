@@ -183,6 +183,30 @@
     {
       "img": "img/team/product8.jpeg",
       "name": "Multimeter"
+    },
+    {
+      "img": "img/team/product9.jpeg",
+      "name": "Flow Meter"
+    },
+    {
+      "img": "img/team/product10.jpeg",
+      "name": "VFD"
+    },
+    {
+      "img": "img/team/product11.jpeg",
+      "name": "Motor"
+    },
+    {
+      "img": "img/team/product12.jpeg",
+      "name": "Proximity Sensor"
+    },
+    {
+      "img": "img/team/product13.jpeg",
+      "name": "Temperature sensor"
+    },
+    {
+      "img": "img/team/product14.jpeg",
+      "name": "IFM Sensor"
     }
   ],
   "Contact": {
