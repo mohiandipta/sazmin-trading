@@ -256,7 +256,7 @@ export const Contact = (props) => {
                         {/* <a href="tel:080000 166009">080000 166009</a>, */}
                         <a
                           className="ms-1"
-                          href="https://api.whatsapp.com/send?phone=8801755630298"
+                          href="https://api.whatsapp.com/send?phone="
                         >
                           ____
                         </a>
@@ -276,19 +276,19 @@ export const Contact = (props) => {
                     </div>
 
                     <div className="align-self-center mt-4">
-                      <a href="https://www.facebook.com/Amprokashoni">
+                      <a href="https://www.facebook.com/">
                         <i
                           className="fa fa-facebook mx-2"
                           style={{ color: "white", fontSize: "20px", padding:'2px' }}
                         ></i>
                       </a>
-                      <a href="https://www.youtube.com/channel/UCT8jI6Oh2Z5B_3zVJ0NmOzA">
+                      <a href="https://www.youtube.com/">
                         <i
                           className="fa fa-youtube mx-2"
                           style={{ color: "white", fontSize: "20px", padding:'2px' }}
                         ></i>
                       </a>
-                      <a href="https://api.whatsapp.com/send?phone=8801755630298">
+                      <a href="https://api.whatsapp.com/send?phone=">
                         <i
                           className="fa fa-whatsapp mx-2"
                           style={{ color: "white", fontSize: "20px", padding:'2px' }}
